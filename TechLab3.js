@@ -57,6 +57,45 @@
 
 //Problema 4
 
+//Functia map este o metoda pe array si acum vedem cum o putem face ca o functie globala
+
+// const sampleArray=[1,2,3,4,5]
+
+// const map=(array,transfomration)=>
+// {
+//     const result=[];
+//     for(const element of array)
+//     {
+//         result.push(transfomration(element))
+//     }
+//     return result;
+// }
+
+// console.log(map(sampleArray,(x)=>x*2))
+
+//Problema 4
+
+// const numbers=[1,2,3,4,5]
+
+// const reduceLeft = (array, reducer, initialValue) => {
+//   let accumulator;
+//   let startIndex;
+//   if (initialValue !== undefined) {
+//     accumulator = initialValue;
+//     startIndex = 0;
+//   } else {
+//     accumulator = array[0];
+//     startIndex = 1;
+//   }
+
+//   for (let i = startIndex; i < array.length; i++) {
+//     accumulator = reducer(accumulator, array[i], i, array);
+//   }
+
+//   return accumulator;
+// };
+
+// console.log(reduceLeft(numbers, (acc, x) => acc + x, 0));
 
 
 
